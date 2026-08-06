@@ -26,9 +26,10 @@
     </p>
 
     <script>
-        window.alert('Você acabou de entrar na aula 04!') // Um alerta antes de começar a rodar o programa
-        window.confirm('Está pronto para aula? ') // Pedindo a confirmação do usuário antes de começar o programa
-        window.prompt('Antes de começar aula, poderiá dizer seu nome? ') // Prompt para digitação dos dados
+        var n1 = Number.parseInt(window.prompt('Digite um número')) // Pode ser com 'Number.parseInt' ou apanas 'parseInt'
+        var n2 = Number.parseFloat(window.prompt('Digite outro número'))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s)
     </script>
 
 </body>
