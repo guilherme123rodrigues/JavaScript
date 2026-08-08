@@ -6,10 +6,20 @@
 </head>
 <body>
     <script>
+        
         var nome = window.prompt('Qual é seu nome? ')
+
         document.write(`Seu nome tem ${nome.length} letras`)
         document.write(`<br>Seu nome está em maiúsculo <strong>${nome.toUpperCase()}</strong>`)
         document.write(`<br>Seu nome está em minúsculo <strong>${nome.toLowerCase()}</strong>`)
+        
+        var numero = Number.parseFloat(window.prompt('Digite um valor: '))
+        var numero1 = Number.parseFloat(window.prompt('Digite outro valor: '))
+        var soma = numero + numero1
+
+        document.write(`. A soma dos valores ${numero}+${numero1} é ${soma}`)
+        document.write(`<br>Quantidade de caracteres: ${soma.toString().length}`)
+
     </script>
 </body>
 </html>
